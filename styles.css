@@ -1,0 +1,31 @@
+.fade-in {
+    opacity: 0;
+    transition: opacity 1.5s ease-in;
+}
+.fade-in.show {
+    opacity: 1;
+}
+background-color: #f4f4f4;
+<style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+        header {
+            background: #35424a;
+            color: white;
+            padding: 30px;
+        }
+        h1 {
+            font-size: 2.5rem;
+        }
+        footer {
+            background-color: #35424a;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
